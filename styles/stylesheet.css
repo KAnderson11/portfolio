@@ -1,0 +1,59 @@
+
+      h1 {
+        color: hsla(240, 10%, 50%,.5);
+      }
+
+      h2 {
+        color: hsla(300, 100%, 25%, .5);
+      }
+
+      p {
+        color:purple;
+      }
+
+      body {
+        background-color:aqua;
+      }
+      .purple-text {
+        color: rgba(191, 30, 78, 1);
+      }
+
+      .important {
+        font-weight: bold;
+      }
+      .important:hover {
+        background-color:#00FF00;
+    }
+      #fun-fact {
+        color: orange;
+        font-weight: bold;
+    }
+
+     #weird-fact {
+       color: white;
+       font-weight: bold;
+     }
+
+
+      h1 {
+        color:red;
+        border-style: solid;
+        border-width: 4px;
+        border-color: green;
+      }
+
+      p.important {
+        width: 75%
+      }
+
+
+      a[href="https://www.fisheries.noaa.gov/species/killer-whale"] {
+        background-color: red;
+      }
+
+      img {
+        border-style: dashed;
+        border-color: yellow;
+        border-width: 6px;
+        width: 25%;
+      }
