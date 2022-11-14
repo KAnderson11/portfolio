@@ -1,0 +1,66 @@
+h1 {
+      color:white;
+      background-color:darkturquoise;
+    }
+
+
+    h2{
+      color:white;
+      background-color:darkturquoise;
+    }
+
+    h3{
+      color:darkgrey;
+   }
+
+   #menu-bar{
+    color:slategrey;
+    background-color:lightgrey;
+  }
+
+  .aqua-text{
+   color:aqua;
+     }
+
+    p {
+      color:slategrey;
+    }
+
+    body {
+      background-color:white;
+    }
+
+
+    .important {
+      font-weight: bold;
+    }
+
+    #quotation {
+      color: darkturquoise;
+      font-weight: bold;
+  }
+
+h4{
+color:slategrey}
+
+h5{
+color:slategrey}
+
+   #aqua {
+     color: aqua;
+   }
+
+  .white {
+  color:white;
+  background-color:slategrey;
+  padding:1rem;
+}
+
+a[href="#"] {
+  background-color:slategrey;
+}
+
+
+aside {
+  float:right;
+}
