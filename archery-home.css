@@ -1,0 +1,29 @@
+.box{
+  height: 300px;
+  width: 1300px;
+  border: 30px solid aqua;
+  background: white;
+}
+
+.container {
+  height: 800px;
+  background-color: rgb(3, 163, 223);
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+h1 {
+  color: black;
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(3, 163, 223);
+}
+.navigation{
+  height: auto;
+  width: auto;
+  border: 10px solid aqua;
+  background: white;
+}
