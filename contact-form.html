@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Nonprofit Volunteer Contact Form</title>
+     <link rel="stylesheet" type="text/css" href="contact-styles.css">
+  </head>
+  <body>
+  <h1>Volunteer Interest Form</h1>
+
+  <form method="GET">
+    <label>Your first name:
+      <input type="text" name="firstName">
+    </label>
+
+     <label>Your last name:
+      <input type="text" name="lastName">
+    </label>
+
+    <label>Your email:
+      <input type="email" name="applicantEmail">
+    </label>
+
+
+    <label>Your phone number:
+      <input type="text" name="volunteerPhone">
+    </label>
+
+    <!--the other label syntax-->
+    <label for="preference">What is your preferred method we use to contact you?</label>
+      <input id="preference" type="text" name="contactPreference">
+
+    <label>What is your age?
+      <input type="number" name="volunteerAge">
+    </label>
+
+    <label>Would you like to volunteer for virtual or in person volunteer opportunities?
+      <textarea name="volunteerMethod" rows="4" cols="50"></textarea>
+    </label>
+
+  <fieldset>
+    <legend>What days of the week are you interested in volunteering?</legend>
+    <label>Mondays
+      <input type="checkbox" name="weekday" value="mondays">
+    </label>
+    <label>Tuesdays
+      <input type="checkbox" name="weekday" value="tuesdays">
+    </label>
+    <label>Wednesdays
+      <input type="checkbox" name="weekday" value="wednesdays">
+    </label>
+    <label>Thursdays
+      <input type="checkbox" name="weekday" value="thursdays">
+    </label>
+    <label>Fridays
+      <input type="checkbox" name="weekday" value="fridays">
+    </label>
+    <label>Saturdays
+      <input type="checkbox" name="weekday" value="saturdays">
+    </label>
+    <label>Sundays
+      <input type="checkbox" name="weekday" value="sundays">
+    </label>
+  </fieldset>
+
+  <fieldset>
+    <legend>Are you interested in receiving a free copy of our yearly newsletter?</legend>
+
+    <label>
+      <input type="radio" name="special" value="yes">
+      Yes
+    </label>
+    <label>
+      <input type="radio" name="special" value="no">
+      No
+    </label>
+  </fieldset>
+
+  <label>How many hours a week are you interested in volunteering?
+    <select name="hours">
+      <option value="">Please select</option>
+      <option value="few">less than 5</option>
+      <option value="some">5 to 10</option>
+      <option value="many">more than 10</option>
+    </select>
+  </label>
+
+    <label>To create account, enter a password
+      <input type="password" name="accountPW">
+    </label>
+     <input type="submit" value="Submit!">
+  </form>
+
+
+  </body>
+
+</html>
