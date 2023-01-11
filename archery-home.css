@@ -27,3 +27,8 @@ h1 {
   border: 10px solid aqua;
   background: white;
 }
+
+nav a {
+    padding: .5rem;
+    margin: .5rem;
+}
