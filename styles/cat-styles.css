@@ -12,7 +12,7 @@ h1 {
    }
 
    #menu-bar{
-    color:slategrey;
+    color:black;
     background-color:lightgrey;
   }
 
@@ -71,4 +71,9 @@ a[href="#"] {
 
 aside {
   float:right;
+}
+
+nav a {
+    padding: 1rem;
+    margin: 1rem;
 }
